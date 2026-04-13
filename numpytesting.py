@@ -77,3 +77,8 @@ print(arr[arr > 18])
 #We can also use logical operators like & (AND), | (OR) and ~ (NOT) to combine conditions.
 arr = np.array([10, 15, 20, 25, 30])
 print(arr[(arr > 10) & (arr < 25)])
+
+#5. Fancy Indexing - It is also known as Advanced Indexing which allows us access elements of an array by using another array or list of indices.
+arr = np.array([10, 20, 30, 40, 50])
+indices = [0, 2, 4]
+print(arr[indices])
